@@ -25,7 +25,7 @@ chmod a+x script.sh
 grep -r -w TODO *.py
 
 # 9. Show the last 20 commands entered in the terminal
-history | tail -n 20
+history 20
 
 # 10. Show processes sorted by memory usage
 ps aux --sort=-%mem
