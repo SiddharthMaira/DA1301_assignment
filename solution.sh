@@ -4,7 +4,7 @@
 sort -n numbers.txt
 
 # 2. Print the IP address of the machine
-ip addr show
+hostname -I
 
 # 3. Show the contents of a file named "readme.txt" in the current directory
 cat readme.txt
